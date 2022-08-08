@@ -1,0 +1,115 @@
+.logo{
+    float: left;
+   width: 13%;
+   height:55px;
+    margin-right: 20px;
+     margin-top: 0;
+ }
+ .nav-bar {
+     width: 100%;  
+     height: 10px; 
+     float:right; 
+ }
+ ul {
+   list-style-type: none;
+   margin: 40;
+   padding:60 ;
+   overflow: hidden;
+    display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+ }
+ 
+ @media (max-width: 250px) {
+   nav > ul {
+     flex-direction: row;
+   }
+ }
+ 
+ li {
+   float:right;
+ }
+ li a {
+   display: flex;
+   color: white;
+   text-align: center;
+   padding: 28px 25px;
+   text-decoration: none;
+ }
+ .btn{
+   margin-top:10px;
+ }
+ #header{
+   background:#5F093D;
+ }
+ h1,h3,h2,h4{
+   color:#5F093D;
+   font-family:fangsong,italic;
+ }
+ .main{
+   text-align:center;
+   border: 10px solid #ECECEC;
+   box-sizing: border-box;
+ }
+ .ytube{
+   width:40%;
+   height=40%;
+ }
+ .About{
+   display:flex;
+   flex-direction:column;
+    flex-wrap: wrap;
+   align-items:center;
+   border: 10px solid #ECECEC;
+   box-sizing: border-box;
+ }
+ @media screen and (max-width:300px)
+ {
+   .About{
+   display:flex;
+   flex-direction:column;
+    flex-wrap: wrap;
+   align-items:center;
+   border: 10px solid #ECECEC;
+   box-sizing: border-box;
+ }
+ }
+ .grid-container{
+   display:grid;
+   grid-template-columns: auto auto auto;
+   gap:1px;
+ }
+ 
+ @media (max-width:500px){
+   .grid-container{
+     display: grid;
+      grid-template-columns: auto auto;
+ /*     grid-template-row: auto auto auto; */
+   }
+ }
+  @media (max-width:350px){
+ .grid-container{
+     display: grid;
+      grid-template-columns: auto;
+     grid-template-row: auto auto auto auto auto auto;
+    }
+ }
+ 
+ .Recipes{
+   border: 10px solid #ECECEC;
+   box-sizing: border-box;
+ }
+ .image{
+   width:100%;
+   height:80%;
+ }
+ .item{
+ border: 2px solid black;
+ box-sizing: border-box; 
+   width:80%;
+   height:90%;
+   text-align:center;
+ }
+ /* body{
+   width:100%;
+ } */
